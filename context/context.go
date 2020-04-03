@@ -2,9 +2,9 @@ package context
 
 import (
 	"github.com/go-telegram-bot-api/telegram-bot-api"
-	"libretaxi/config"
-	"libretaxi/rabbit"
-	"libretaxi/repository"
+	"cocu/config"
+	"cocu/rabbit"
+	"cocu/repository"
 )
 
 type Context struct {

@@ -6,13 +6,13 @@ import (
 	"github.com/leonelquinteros/gotext"
 	_ "github.com/lib/pq" // important
 	"go.uber.org/ratelimit"
-	"libretaxi/callback"
-	"libretaxi/config"
-	"libretaxi/context"
-	"libretaxi/menu"
-	"libretaxi/rabbit"
-	"libretaxi/repository"
-	"libretaxi/sender"
+	"cocu/callback"
+	"cocu/config"
+	"cocu/context"
+	"cocu/menu"
+	"cocu/rabbit"
+	"cocu/repository"
+	"cocu/sender"
 	"log"
 	"math/rand"
 	"time"
@@ -165,7 +165,7 @@ func massAnnounce() {
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	config.Init("libretaxi")
+	config.Init("cocu")
 
 	go main1()
 	go main2()

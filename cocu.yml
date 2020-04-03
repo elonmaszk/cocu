@@ -1,0 +1,5 @@
+telegram_token: 985563757:AAG1rSZevSOLKReeaNDAwAZf4Z5g2W4LhCc
+db_conn_str: postgres://libretaxi:libretaxi@localhost:15432/libretaxi
+rabbit_url: amqp://127.0.0.1:8079/
+admin_channel_chat_id: -1001324105405
+public_channel_chat_id: -1001470847849

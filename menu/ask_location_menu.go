@@ -2,8 +2,8 @@ package menu
 
 import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
-	"libretaxi/context"
-	"libretaxi/objects"
+	"cocu/context"
+	"cocu/objects"
 	"log"
 )
 

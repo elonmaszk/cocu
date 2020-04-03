@@ -1,8 +1,8 @@
 package sender
 
 import (
-	"libretaxi/context"
-	"libretaxi/rabbit"
+	"cocu/context"
+	"cocu/rabbit"
 	"log"
 )
 
